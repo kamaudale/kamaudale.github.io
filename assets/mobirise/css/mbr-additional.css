@@ -1278,48 +1278,50 @@ section.lazy-placeholder:after {
   display: flex;
   flex-direction: column-reverse;
 }
-.cid-rW6QlARUCH {
+.cid-rW8cLHXkCp {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #c1c1c1;
-  background: linear-gradient(0deg, #c1c1c1, #149dcc);
+  background-image: url("../../../assets/images/mbr-1.jpg");
 }
-.cid-rW6QlARUCH .nav-tabs {
-  -webkit-justify-content: center;
+.cid-rW8cLHXkCp .testimonials-container {
+  margin: 0 auto;
+}
+.cid-rW8cLHXkCp .testimonials-container .testimonials-item {
   justify-content: center;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  border-bottom: none;
+  margin-top: 3rem;
+  -webkit-justify-content: center;
 }
-.cid-rW6QlARUCH .nav-tabs .nav-link {
-  box-sizing: border-box;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 500;
-  border-radius: 3px;
-  border: 1px solid #ffffff;
-  padding: 1rem 3rem;
-  margin: 0.4rem .8rem !important;
-  transition: all .5s;
+.cid-rW8cLHXkCp .testimonials-container .testimonials-item .user {
+  background: #ffffff;
 }
-.cid-rW6QlARUCH .nav-tabs .nav-link:hover {
-  background-color: #ff3366;
+.cid-rW8cLHXkCp .testimonials-container .testimonials-item .user.row {
+  margin: 0;
 }
-.cid-rW6QlARUCH .nav-tabs .nav-link.active {
-  font-weight: 500;
-  color: #ffffff;
-  font-style: normal;
-  border: none;
-  background: #ff3366;
+.cid-rW8cLHXkCp .testimonials-container .testimonials-item .user .user_image {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin: 2rem auto 2rem auto;
 }
-.cid-rW6QlARUCH .nav-tabs .nav-link.active:hover {
-  border: none;
+.cid-rW8cLHXkCp .testimonials-container .testimonials-item .user .user_image img {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
-.cid-rW6QlARUCH p {
-  color: #232323;
+.cid-rW8cLHXkCp .testimonials-container .testimonials-item .user .testimonials-caption {
+  padding: 2rem;
+  padding: 2rem 2rem 2rem 0;
 }
-.cid-rW6QlARUCH .mbr-text {
-  text-align: center;
+@media (max-width: 260px) {
+  .cid-rW8cLHXkCp .user_image {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rW8cLHXkCp .testimonials-caption {
+    padding: 0 2rem 2rem 2rem !important;
+  }
 }
 .cid-rW6QRbEf1F {
   padding-top: 30px;
